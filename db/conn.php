@@ -1,17 +1,17 @@
 <?php
     //Pesronal system database connection
-    $host = 'localhost'; 
-    $db = 'event_db';
-    $user = 'root';
-    $pass = '';
-    $charset = 'utf8mb4';
+   // $host = 'localhost'; 
+   // $db = 'event_db';
+   // $user = 'root';
+   // $pass = '';
+   // $charset = 'utf8mb4';
 
     //remote datebase connection
-    //$host = 'remotemysql.com'; 
-    //$db = 'VcqeYknmDc';
-    //$user = 'VcqeYknmDc';
-    //$pass = 'H3pERMjdgb';
-    //$charset = 'utf8mb4';
+    $host = 'remotemysql.com'; 
+    $db = 'VcqeYknmDc';
+    $user = 'VcqeYknmDc';
+    $pass = 'H3pERMjdgb';
+    $charset = 'utf8mb4';
 
     $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 
